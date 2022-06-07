@@ -1,0 +1,10 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"http://www.w3.org/2003/01/geo/wgs84_pos#location" -> "http://xmlns.com/foaf/0.1/based_near" [ label = "rdfs:subPropertyOf" ];
+	"http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" -> "owl:Thing" [ label = "http://www.w3.org/2003/01/geo/wgs84_pos#alt" ];
+	"owl:Thing" -> "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" [ label = "http://www.w3.org/2003/01/geo/wgs84_pos#location" ];
+	"http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" -> "owl:Thing" [ label = "http://www.w3.org/2003/01/geo/wgs84_pos#lat" ];
+	"http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" -> "owl:Thing" [ label = "http://www.w3.org/2003/01/geo/wgs84_pos#long" ];
+
+}

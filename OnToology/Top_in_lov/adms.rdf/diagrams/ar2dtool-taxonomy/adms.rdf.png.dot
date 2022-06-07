@@ -1,0 +1,8 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+	"adms:AssetRepository" -> "dcat:Catalog" [ label = "rdfs:subClassOf" ];
+	"adms:AssetDistribution" -> "dcat:Distribution" [ label = "rdfs:subClassOf" ];
+	"adms:Asset" -> "dcat:Dataset" [ label = "rdfs:subClassOf" ];
+
+}

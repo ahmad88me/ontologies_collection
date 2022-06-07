@@ -1,0 +1,239 @@
+{
+  "@context" : {
+    "release" : {
+      "@id" : "http://usefulinc.com/ns/doap#release",
+      "@type" : "@id"
+    },
+    "implements" : {
+      "@id" : "http://usefulinc.com/ns/doap#implements",
+      "@type" : "@id"
+    },
+    "support-forum" : {
+      "@id" : "http://usefulinc.com/ns/doap#support-forum",
+      "@type" : "@id"
+    },
+    "MailingList" : {
+      "@id" : "http://rdfs.org/sioc/types#MailingList"
+    },
+    "Wiki" : {
+      "@id" : "http://rdfs.org/sioc/types#Wiki"
+    },
+    "download-page" : {
+      "@id" : "http://usefulinc.com/ns/doap#download-page"
+    },
+    "created" : {
+      "@id" : "http://usefulinc.com/ns/doap#created",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "browse" : {
+      "@id" : "http://usefulinc.com/ns/doap#browse"
+    },
+    "repositoryOf" : {
+      "@id" : "http://usefulinc.com/ns/doap#repositoryOf",
+      "@type" : "@id"
+    },
+    "vendor" : {
+      "@id" : "http://usefulinc.com/ns/doap#vendor",
+      "@type" : "@id"
+    },
+    "Organization" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Organization"
+    },
+    "developer-forum" : {
+      "@id" : "http://usefulinc.com/ns/doap#developer-forum",
+      "@type" : "@id"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "os" : {
+      "@id" : "http://usefulinc.com/ns/doap#os",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Repository" : {
+      "@id" : "http://usefulinc.com/ns/doap#Repository"
+    },
+    "download-mirror" : {
+      "@id" : "http://usefulinc.com/ns/doap#download-mirror"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "screenshots" : {
+      "@id" : "http://usefulinc.com/ns/doap#screenshots"
+    },
+    "HgRepository" : {
+      "@id" : "http://usefulinc.com/ns/doap#HgRepository"
+    },
+    "repository" : {
+      "@id" : "http://usefulinc.com/ns/doap#repository",
+      "@type" : "@id"
+    },
+    "service-endpoint" : {
+      "@id" : "http://usefulinc.com/ns/doap#service-endpoint",
+      "@type" : "@id"
+    },
+    "Weblog" : {
+      "@id" : "http://rdfs.org/sioc/types#Weblog"
+    },
+    "Specification" : {
+      "@id" : "http://usefulinc.com/ns/doap#Specification"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "wiki" : {
+      "@id" : "http://usefulinc.com/ns/doap#wiki",
+      "@type" : "@id"
+    },
+    "revision" : {
+      "@id" : "http://usefulinc.com/ns/doap#revision",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "tester" : {
+      "@id" : "http://usefulinc.com/ns/doap#tester",
+      "@type" : "@id"
+    },
+    "documenter" : {
+      "@id" : "http://usefulinc.com/ns/doap#documenter",
+      "@type" : "@id"
+    },
+    "SVNRepository" : {
+      "@id" : "http://usefulinc.com/ns/doap#SVNRepository"
+    },
+    "shortdesc" : {
+      "@id" : "http://usefulinc.com/ns/doap#shortdesc",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "DarcsRepository" : {
+      "@id" : "http://usefulinc.com/ns/doap#DarcsRepository"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "programming-language" : {
+      "@id" : "http://usefulinc.com/ns/doap#programming-language",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "translator" : {
+      "@id" : "http://usefulinc.com/ns/doap#translator",
+      "@type" : "@id"
+    },
+    "GitBranch" : {
+      "@id" : "http://usefulinc.com/ns/doap#GitBranch"
+    },
+    "helper" : {
+      "@id" : "http://usefulinc.com/ns/doap#helper",
+      "@type" : "@id"
+    },
+    "location" : {
+      "@id" : "http://usefulinc.com/ns/doap#location"
+    },
+    "blog" : {
+      "@id" : "http://usefulinc.com/ns/doap#blog",
+      "@type" : "@id"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "ArchRepository" : {
+      "@id" : "http://usefulinc.com/ns/doap#ArchRepository"
+    },
+    "module" : {
+      "@id" : "http://usefulinc.com/ns/doap#module"
+    },
+    "Container" : {
+      "@id" : "http://rdfs.org/sioc/ns#Container"
+    },
+    "file-release" : {
+      "@id" : "http://usefulinc.com/ns/doap#file-release"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "BazaarBranch" : {
+      "@id" : "http://usefulinc.com/ns/doap#BazaarBranch"
+    },
+    "Project" : {
+      "@id" : "http://usefulinc.com/ns/doap#Project"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "BKRepository" : {
+      "@id" : "http://usefulinc.com/ns/doap#BKRepository"
+    },
+    "maintainer" : {
+      "@id" : "http://usefulinc.com/ns/doap#maintainer",
+      "@type" : "@id"
+    },
+    "developer" : {
+      "@id" : "http://usefulinc.com/ns/doap#developer",
+      "@type" : "@id"
+    },
+    "mailing-list" : {
+      "@id" : "http://usefulinc.com/ns/doap#mailing-list",
+      "@type" : "@id"
+    },
+    "Resource" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    },
+    "Version" : {
+      "@id" : "http://usefulinc.com/ns/doap#Version"
+    },
+    "category" : {
+      "@id" : "http://usefulinc.com/ns/doap#category"
+    },
+    "CVSRepository" : {
+      "@id" : "http://usefulinc.com/ns/doap#CVSRepository"
+    },
+    "audience" : {
+      "@id" : "http://usefulinc.com/ns/doap#audience",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "language" : {
+      "@id" : "http://usefulinc.com/ns/doap#language",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "anon-root" : {
+      "@id" : "http://usefulinc.com/ns/doap#anon-root",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "platform" : {
+      "@id" : "http://usefulinc.com/ns/doap#platform",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "bug-database" : {
+      "@id" : "http://usefulinc.com/ns/doap#bug-database"
+    },
+    "description" : {
+      "@id" : "http://usefulinc.com/ns/doap#description",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "GitRepository" : {
+      "@id" : "http://usefulinc.com/ns/doap#GitRepository"
+    },
+    "old-homepage" : {
+      "@id" : "http://usefulinc.com/ns/doap#old-homepage",
+      "@type" : "@id"
+    }
+  }
+}

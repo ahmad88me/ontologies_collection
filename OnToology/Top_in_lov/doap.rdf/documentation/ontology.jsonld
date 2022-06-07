@@ -1,0 +1,2256 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://xmlns.com/foaf/0.1/Person" ],
+  "http://xmlns.com/foaf/0.1/mbox" : [ {
+    "@id" : "mailto:edd@usefulinc.com"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Edd Wilder-James"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdfs.org/sioc/ns#Container",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdfs.org/sioc/types#MailingList",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdfs.org/sioc/types#Weblog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdfs.org/sioc/types#Wiki",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Edd Wilder-James"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "de",
+    "@value" : "Das Vokabular \"Description of a Project (DOAP)\", beschrieben durch W3C RDF Schema and the Web Ontology Language."
+  }, {
+    "@language" : "es",
+    "@value" : "El vocabulario Description of a Project (DOAP, Descripción de un Proyecto), descrito usando RDF Schema de W3C\n\t\ty Web Ontology Language."
+  }, {
+    "@language" : "fr",
+    "@value" : "Le vocabulaire Description Of A Project (DOAP, Description D'Un Projet),\n\t\tdécrit en utilisant RDF Schema du W3C et OWL."
+  }, {
+    "@language" : "cs",
+    "@value" : "Slovník Description of a Project (DOAP, Popis projektu), popsaný použitím W3C RDF Schema a Web Ontology Language."
+  }, {
+    "@language" : "pt",
+    "@value" : "Vocabulário de descrição de um Projeto (DOAP - Description of a Project), descrito no esquema (schema) W3C RDF e na Web Ontology Language."
+  }, {
+    "@value" : "The Description of a Project (DOAP) vocabulary, described using W3C RDF Schema and the Web Ontology Language."
+  } ],
+  "http://purl.org/dc/elements/1.1/format" : [ {
+    "@value" : "application/rdf+xml"
+  } ],
+  "http://purl.org/dc/elements/1.1/rights" : [ {
+    "@value" : "Copyright © 2004-2018 Edd Dumbill, Edd Wilder-James"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Description of a Project (DOAP) vocabulary"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/index.rdf"
+  } ],
+  "http://xmlns.com/foaf/0.1/maker" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#ArchRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt GNU Arch du code source."
+  }, {
+    "@language" : "de",
+    "@value" : "GNU Arch Quellcode-Versionierungssystem."
+  }, {
+    "@language" : "en",
+    "@value" : "GNU Arch source code repository."
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio GNU Arch del código fuente."
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório GNU Arch do código fonte."
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště zdrojových kódů GNU Arch."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt GNU Arch"
+  }, {
+    "@language" : "de",
+    "@value" : "GNU Arch repository"
+  }, {
+    "@language" : "en",
+    "@value" : "GNU Arch repository"
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio GNU Arch"
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório GNU Arch"
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště GNU Arch"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#BKRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "BitKeeper Quellcode-Versionierungssystem."
+  }, {
+    "@language" : "en",
+    "@value" : "BitKeeper source code repository."
+  }, {
+    "@language" : "fr",
+    "@value" : "Dépôt BitKeeper du code source."
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio BitKeeper del código fuente."
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório BitKeeper do código fonte."
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště zdrojových kódů BitKeeper."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "BitKeeper Repository"
+  }, {
+    "@language" : "en",
+    "@value" : "BitKeeper Repository"
+  }, {
+    "@language" : "fr",
+    "@value" : "Dépôt BitKeeper"
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio BitKeeper"
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório Bitkeeper"
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště BitKeeper"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#BazaarBranch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bazaar source code branch."
+  }, {
+    "@language" : "pt",
+    "@value" : "Código fonte da ramificação Bazaar."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bazaar Branch"
+  }, {
+    "@language" : "pt",
+    "@value" : "Ramificação Bazaar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#CVSRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "CVS Quellcode-Versionierungssystem."
+  }, {
+    "@language" : "en",
+    "@value" : "CVS source code repository."
+  }, {
+    "@language" : "fr",
+    "@value" : "Dépôt CVS du code source."
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio CVS del código fuente."
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório CVS do código fonte."
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště zdrojových kódů CVS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "CVS Repository"
+  }, {
+    "@language" : "en",
+    "@value" : "CVS Repository"
+  }, {
+    "@language" : "fr",
+    "@value" : "Dépôt CVS"
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio CVS"
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório CVS"
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště CVS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#DarcsRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt darcs du code source."
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio darcs del código fuente."
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório darcs do código fonte."
+  }, {
+    "@language" : "en",
+    "@value" : "darcs source code repository."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt darcs"
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio darcs"
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório darcs"
+  }, {
+    "@language" : "en",
+    "@value" : "darcs Repository"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#GitBranch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Código fonte da ramificação Git."
+  }, {
+    "@language" : "en",
+    "@value" : "Git source code branch."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Git Branch"
+  }, {
+    "@language" : "pt",
+    "@value" : "Ramificação Git"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#GitRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt Git du code source."
+  }, {
+    "@language" : "de",
+    "@value" : "Git Quellcode-Versionierungssystem."
+  }, {
+    "@language" : "en",
+    "@value" : "Git source code repository."
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio Git del código fuente."
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório Git do código fonte."
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště zdrojových kódů Git."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt Git"
+  }, {
+    "@language" : "de",
+    "@value" : "Git Repository"
+  }, {
+    "@language" : "en",
+    "@value" : "Git Repository"
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio Git"
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório Git"
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště Git"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#HgRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mercurial source code repository."
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório Mercurial do código fonte."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mercurial Repository"
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório Mercurial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#Project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A project."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Projekt."
+  }, {
+    "@language" : "cs",
+    "@value" : "Projekt."
+  }, {
+    "@language" : "pt",
+    "@value" : "Projeto."
+  }, {
+    "@language" : "fr",
+    "@value" : "Un projet."
+  }, {
+    "@language" : "es",
+    "@value" : "Un proyecto."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Project"
+  }, {
+    "@language" : "cs",
+    "@value" : "Projekt"
+  }, {
+    "@language" : "de",
+    "@value" : "Projekt"
+  }, {
+    "@language" : "fr",
+    "@value" : "Projet"
+  }, {
+    "@language" : "pt",
+    "@value" : "Projeto"
+  }, {
+    "@language" : "es",
+    "@value" : "Proyecto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Project"
+  }, {
+    "@id" : "http://xmlns.com/wordnet/1.6/Project"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#Repository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt du code source."
+  }, {
+    "@language" : "de",
+    "@value" : "Quellcode-Versionierungssystem."
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio del código fuente."
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório do código fonte."
+  }, {
+    "@language" : "en",
+    "@value" : "Source code repository."
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště zdrojových kódů."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt"
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio"
+  }, {
+    "@language" : "de",
+    "@value" : "Repository"
+  }, {
+    "@language" : "en",
+    "@value" : "Repository"
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório"
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#SVNRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt Subversion du code source."
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio Subversion del código fuente."
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório Subversion do código fonte."
+  }, {
+    "@language" : "de",
+    "@value" : "Subversion Quellcode-Versionierungssystem."
+  }, {
+    "@language" : "en",
+    "@value" : "Subversion source code repository."
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště zdrojových kódů Subversion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt Subversion"
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio Subversion"
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório Subversion"
+  }, {
+    "@language" : "de",
+    "@value" : "Subversion Repository"
+  }, {
+    "@language" : "en",
+    "@value" : "Subversion Repository"
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště Subversion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#Specification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "A especificação de aspetos, técnicas ou outros do sistema."
+  }, {
+    "@language" : "en",
+    "@value" : "A specification of a system's aspects, technical or otherwise."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "pt",
+    "@value" : "Especificação"
+  }, {
+    "@language" : "en",
+    "@value" : "Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#Version",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Détails sur une version d'une release d'un projet."
+  }, {
+    "@language" : "cs",
+    "@value" : "Informace o uvolněné verzi projektu."
+  }, {
+    "@language" : "es",
+    "@value" : "Información sobre la versión de un release del proyecto."
+  }, {
+    "@language" : "pt",
+    "@value" : "Informação sobre a versão do projeto lançado."
+  }, {
+    "@language" : "en",
+    "@value" : "Version information of a project release."
+  }, {
+    "@language" : "de",
+    "@value" : "Versionsinformation eines Projekt Releases."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Version"
+  }, {
+    "@language" : "en",
+    "@value" : "Version"
+  }, {
+    "@language" : "fr",
+    "@value" : "Version"
+  }, {
+    "@language" : "es",
+    "@value" : "Versión"
+  }, {
+    "@language" : "pt",
+    "@value" : "Versão"
+  }, {
+    "@language" : "cs",
+    "@value" : "Verze"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#anon-root",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt pour accès anonyme."
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio para acceso anónimo."
+  }, {
+    "@language" : "en",
+    "@value" : "Repository for anonymous access."
+  }, {
+    "@language" : "de",
+    "@value" : "Repository für anonymen Zugriff"
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório para acesso anónimo."
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště pro anonymní přístup."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Anonymes Root"
+  }, {
+    "@language" : "cs",
+    "@value" : "anonymní kořen"
+  }, {
+    "@language" : "en",
+    "@value" : "anonymous root"
+  }, {
+    "@language" : "fr",
+    "@value" : "racine anonyme"
+  }, {
+    "@language" : "es",
+    "@value" : "raíz anónima"
+  }, {
+    "@language" : "pt",
+    "@value" : "raíz anónima"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#audience",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Description of target user base"
+  }, {
+    "@language" : "pt",
+    "@value" : "Descrição do utilizador base alvo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "audience"
+  }, {
+    "@language" : "pt",
+    "@value" : "audiência"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#blog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "URI de um blog relacionado com um projeto"
+  }, {
+    "@language" : "en",
+    "@value" : "URI of a blog related to a project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "blog"
+  }, {
+    "@language" : "pt",
+    "@value" : "blog"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdfs.org/sioc/types#Weblog"
+  }, {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#browse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Interface web au dépôt."
+  }, {
+    "@language" : "es",
+    "@value" : "Interface web del repositorio."
+  }, {
+    "@language" : "pt",
+    "@value" : "Interface web do repositório."
+  }, {
+    "@language" : "en",
+    "@value" : "Web browser interface to repository."
+  }, {
+    "@language" : "de",
+    "@value" : "Web-Browser Interface für das Repository."
+  }, {
+    "@language" : "cs",
+    "@value" : "Webové rozhraní pro prohlížení úložiště."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "browse"
+  }, {
+    "@language" : "en",
+    "@value" : "browse"
+  }, {
+    "@language" : "es",
+    "@value" : "navegar"
+  }, {
+    "@language" : "pt",
+    "@value" : "navegar"
+  }, {
+    "@language" : "cs",
+    "@value" : "prohlížeč"
+  }, {
+    "@language" : "fr",
+    "@value" : "visualiser"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#bug-database",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bug tracker for a project."
+  }, {
+    "@language" : "pt",
+    "@value" : "Bug tracker para um projeto."
+  }, {
+    "@language" : "es",
+    "@value" : "Bug tracker para un proyecto."
+  }, {
+    "@language" : "de",
+    "@value" : "Fehlerdatenbank eines Projektes."
+  }, {
+    "@language" : "cs",
+    "@value" : "Správa chyb projektu."
+  }, {
+    "@language" : "fr",
+    "@value" : "Suivi des bugs pour un projet."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Fehlerdatenbank"
+  }, {
+    "@language" : "pt",
+    "@value" : "base de dados de bugs"
+  }, {
+    "@language" : "es",
+    "@value" : "base de datos de bugs"
+  }, {
+    "@language" : "en",
+    "@value" : "bug database"
+  }, {
+    "@language" : "cs",
+    "@value" : "databáze chyb"
+  }, {
+    "@language" : "fr",
+    "@value" : "suivi des bugs"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A category of project."
+  }, {
+    "@language" : "de",
+    "@value" : "Eine Kategorie eines Projektes."
+  }, {
+    "@language" : "cs",
+    "@value" : "Kategorie projektu."
+  }, {
+    "@language" : "pt",
+    "@value" : "Uma categoría de projeto."
+  }, {
+    "@language" : "es",
+    "@value" : "Una categoría de proyecto."
+  }, {
+    "@language" : "fr",
+    "@value" : "Une catégorie de projet."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kategorie"
+  }, {
+    "@language" : "pt",
+    "@value" : "categoria"
+  }, {
+    "@language" : "en",
+    "@value" : "category"
+  }, {
+    "@language" : "es",
+    "@value" : "categoría"
+  }, {
+    "@language" : "fr",
+    "@value" : "catégorie"
+  }, {
+    "@language" : "cs",
+    "@value" : "kategorie"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Data em que algo foi criado, no formato AAAA-MM-DD. e.g. 2004-04-05"
+  }, {
+    "@language" : "en",
+    "@value" : "Date when something was created, in YYYY-MM-DD form. e.g. 2004-04-05"
+  }, {
+    "@language" : "fr",
+    "@value" : "Date à laquelle a été créé quelque chose, au format AAAA-MM-JJ (par ex. 2004-04-05)"
+  }, {
+    "@language" : "cs",
+    "@value" : "Datum, kdy bylo něco vytvořeno ve formátu RRRR-MM-DD, např. 2004-04-05"
+  }, {
+    "@language" : "de",
+    "@value" : "Erstellungsdatum von Irgendwas, angegeben im YYYY-MM-DD Format, z.B. 2004-04-05."
+  }, {
+    "@language" : "es",
+    "@value" : "Fecha en la que algo fue creado, en formato AAAA-MM-DD. e.g. 2004-04-05"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "creado"
+  }, {
+    "@language" : "en",
+    "@value" : "created"
+  }, {
+    "@language" : "pt",
+    "@value" : "criado"
+  }, {
+    "@language" : "fr",
+    "@value" : "créé"
+  }, {
+    "@language" : "de",
+    "@value" : "erstellt"
+  }, {
+    "@language" : "cs",
+    "@value" : "vytvořeno"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Beschreibung eines Projekts als einfacher Text mit der Länge von 2 bis 4 Sätzen."
+  }, {
+    "@language" : "es",
+    "@value" : "Descripción en texto plano de un proyecto, de 2 a 4 enunciados de longitud."
+  }, {
+    "@language" : "pt",
+    "@value" : "Descrição de um projeto em texto apenas, com 2 a 4 frases de comprimento."
+  }, {
+    "@language" : "en",
+    "@value" : "Plain text description of a project, of 2-4 sentences in length."
+  }, {
+    "@language" : "fr",
+    "@value" : "Texte descriptif d'un projet, long de 2 à 4 phrases."
+  }, {
+    "@language" : "cs",
+    "@value" : "Čistě textový, 2 až 4 věty dlouhý popis projektu."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Beschreibung"
+  }, {
+    "@language" : "es",
+    "@value" : "descripción"
+  }, {
+    "@language" : "en",
+    "@value" : "description"
+  }, {
+    "@language" : "fr",
+    "@value" : "description"
+  }, {
+    "@language" : "pt",
+    "@value" : "descrição"
+  }, {
+    "@language" : "cs",
+    "@value" : "popis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#developer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Desarrollador de software para el proyecto."
+  }, {
+    "@language" : "en",
+    "@value" : "Developer of software for the project."
+  }, {
+    "@language" : "fr",
+    "@value" : "Développeur pour le projet."
+  }, {
+    "@language" : "pt",
+    "@value" : "Programador de software para o projeto."
+  }, {
+    "@language" : "de",
+    "@value" : "Software-Entwickler für eine Projekt."
+  }, {
+    "@language" : "cs",
+    "@value" : "Vývojář softwaru projektu."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Entwickler"
+  }, {
+    "@language" : "es",
+    "@value" : "desarrollador"
+  }, {
+    "@language" : "en",
+    "@value" : "developer"
+  }, {
+    "@language" : "fr",
+    "@value" : "développeur"
+  }, {
+    "@language" : "pt",
+    "@value" : "programador"
+  }, {
+    "@language" : "cs",
+    "@value" : "vývojář"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#developer-forum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A forum or community for developers of this project."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "developer forum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdfs.org/sioc/ns#Container"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#documenter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Collaborateur à la documentation du projet."
+  }, {
+    "@language" : "pt",
+    "@value" : "Contribuidor para a documentação do projeto."
+  }, {
+    "@language" : "en",
+    "@value" : "Contributor of documentation to the project."
+  }, {
+    "@language" : "de",
+    "@value" : "Mitarbeiter an der Dokumentation eines Projektes."
+  }, {
+    "@language" : "es",
+    "@value" : "Proveedor de documentación para el proyecto."
+  }, {
+    "@language" : "cs",
+    "@value" : "Spoluautor dokumentace projektu."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Dokumentator"
+  }, {
+    "@language" : "pt",
+    "@value" : "documentador"
+  }, {
+    "@language" : "en",
+    "@value" : "documenter"
+  }, {
+    "@language" : "cs",
+    "@value" : "dokumentarista"
+  }, {
+    "@language" : "es",
+    "@value" : "escritor de ayuda"
+  }, {
+    "@language" : "fr",
+    "@value" : "rédacteur de l'aide"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#download-mirror",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Miroir de la page de téléchargement du programme."
+  }, {
+    "@language" : "pt",
+    "@value" : "Mirror da página web para fazer download."
+  }, {
+    "@language" : "es",
+    "@value" : "Mirror de la página web de descarga."
+  }, {
+    "@language" : "en",
+    "@value" : "Mirror of software download web page."
+  }, {
+    "@language" : "de",
+    "@value" : "Spiegel der Seite von die Projekt-Software heruntergeladen werden kann."
+  }, {
+    "@language" : "cs",
+    "@value" : "Zrcadlo stránky pro stažení softwaru."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Spiegel der Seite zum Herunterladen"
+  }, {
+    "@language" : "en",
+    "@value" : "download mirror"
+  }, {
+    "@language" : "fr",
+    "@value" : "miroir pour le téléchargement"
+  }, {
+    "@language" : "es",
+    "@value" : "mirror de descarga"
+  }, {
+    "@language" : "pt",
+    "@value" : "mirror para download"
+  }, {
+    "@language" : "cs",
+    "@value" : "zrcadlo stránky pro stažení"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#download-page",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Page web à partir de laquelle on peut télécharger le programme."
+  }, {
+    "@language" : "pt",
+    "@value" : "Página web da qual o projeto de software pode ser descarregado."
+  }, {
+    "@language" : "es",
+    "@value" : "Página web de la cuál se puede bajar el software."
+  }, {
+    "@language" : "en",
+    "@value" : "Web page from which the project software can be downloaded."
+  }, {
+    "@language" : "de",
+    "@value" : "Web-Seite von der die Projekt-Software heruntergeladen werden kann."
+  }, {
+    "@language" : "cs",
+    "@value" : "Webová stránka, na které lze stáhnout projektový software."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Seite zum Herunterladen"
+  }, {
+    "@language" : "en",
+    "@value" : "download page"
+  }, {
+    "@language" : "fr",
+    "@value" : "page de téléchargement"
+  }, {
+    "@language" : "es",
+    "@value" : "página de descarga"
+  }, {
+    "@language" : "pt",
+    "@value" : "página para download"
+  }, {
+    "@language" : "cs",
+    "@value" : "stránka pro stažení"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#file-release",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "cs",
+    "@value" : "URI adresa stažení asociované s revizí."
+  }, {
+    "@language" : "en",
+    "@value" : "URI of download associated with this release."
+  }, {
+    "@language" : "pt",
+    "@value" : "URI para download associado com a publicação."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Version"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "file-release"
+  }, {
+    "@language" : "pt",
+    "@value" : "publicação do ficheiro"
+  }, {
+    "@language" : "cs",
+    "@value" : "soubor revize"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#helper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Ajudante ou colaborador do projeto."
+  }, {
+    "@language" : "es",
+    "@value" : "Colaborador del proyecto."
+  }, {
+    "@language" : "fr",
+    "@value" : "Collaborateur au projet."
+  }, {
+    "@language" : "en",
+    "@value" : "Project contributor."
+  }, {
+    "@language" : "de",
+    "@value" : "Projekt-Mitarbeiter."
+  }, {
+    "@language" : "cs",
+    "@value" : "Spoluautor projektu."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Helfer"
+  }, {
+    "@language" : "es",
+    "@value" : "colaborador"
+  }, {
+    "@language" : "pt",
+    "@value" : "colaborador"
+  }, {
+    "@language" : "fr",
+    "@value" : "collaborateur"
+  }, {
+    "@language" : "en",
+    "@value" : "helper"
+  }, {
+    "@language" : "cs",
+    "@value" : "spoluautor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#homepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "El URL de la página de un proyecto,\n\t\tasociada con exactamente un proyecto."
+  }, {
+    "@language" : "fr",
+    "@value" : "L'URL de la page web d'un projet,\n\t\tassociée avec un unique projet."
+  }, {
+    "@language" : "pt",
+    "@value" : "O URL da página de um projeto,\n\t\tasociada com exactamente um projeto."
+  }, {
+    "@language" : "cs",
+    "@value" : "URL adresa domovské stránky projektu asociované s právě jedním projektem."
+  }, {
+    "@language" : "de",
+    "@value" : "URL der Projekt-Homepage,\n\t\tverbunden mit genau einem Projekt."
+  }, {
+    "@language" : "en",
+    "@value" : "URL of a project's homepage,\n\t\tassociated with exactly one project."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Homepage"
+  }, {
+    "@language" : "cs",
+    "@value" : "domovská stránka"
+  }, {
+    "@language" : "en",
+    "@value" : "homepage"
+  }, {
+    "@language" : "fr",
+    "@value" : "page web"
+  }, {
+    "@language" : "es",
+    "@value" : "página web"
+  }, {
+    "@language" : "pt",
+    "@value" : "página web"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/homepage"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#implements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A specification that a project implements. Could be a standard, API or legally defined level of conformance."
+  }, {
+    "@language" : "pt",
+    "@value" : "Uma especificação que um projeto implementa. Pode ser uma padrão, API ou um nível de conformidade definida legalmente."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "pt",
+    "@value" : "Especificações para implementação"
+  }, {
+    "@language" : "en",
+    "@value" : "Implements specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Specification"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Código de idioma ISO do projeto para o qual foi traduzido"
+  }, {
+    "@language" : "en",
+    "@value" : "ISO language code a project has been translated into"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "pt",
+    "@value" : "idioma"
+  }, {
+    "@language" : "en",
+    "@value" : "language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#license",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Die URI einer RDF-Beschreibung einer Lizenz unter der die Software herausgegeben wird. z.B. eine SPDX Referenz"
+  }, {
+    "@language" : "es",
+    "@value" : "El URI de una descripción RDF de la licencia bajo la cuál se distribuye el software."
+  }, {
+    "@language" : "fr",
+    "@value" : "L'URI d'une description RDF de la licence sous laquelle le programme est distribué."
+  }, {
+    "@language" : "pt",
+    "@value" : "O URI de uma descrição RDF da licença do software sob a qual é distribuída. Ex.: referência SPDX"
+  }, {
+    "@language" : "en",
+    "@value" : "The URI of an RDF description of the license the software is distributed under. E.g. a SPDX reference"
+  }, {
+    "@language" : "cs",
+    "@value" : "URI adresa RDF popisu licence, pod kterou je software distribuován."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Lizenz"
+  }, {
+    "@language" : "cs",
+    "@value" : "licence"
+  }, {
+    "@language" : "fr",
+    "@value" : "licence"
+  }, {
+    "@language" : "es",
+    "@value" : "licencia"
+  }, {
+    "@language" : "en",
+    "@value" : "license"
+  }, {
+    "@language" : "pt",
+    "@value" : "licença"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Emplacement d'un dépôt."
+  }, {
+    "@language" : "pt",
+    "@value" : "Localização de um repositório."
+  }, {
+    "@language" : "en",
+    "@value" : "Location of a repository."
+  }, {
+    "@language" : "de",
+    "@value" : "Lokation eines Repositorys."
+  }, {
+    "@language" : "cs",
+    "@value" : "Umístění úložiště."
+  }, {
+    "@language" : "es",
+    "@value" : "lugar de un repositorio."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Repository Lokation"
+  }, {
+    "@language" : "fr",
+    "@value" : "emplacement du dépôt"
+  }, {
+    "@language" : "pt",
+    "@value" : "localização do respositório"
+  }, {
+    "@language" : "es",
+    "@value" : "lugar del respositorio"
+  }, {
+    "@language" : "en",
+    "@value" : "repository location"
+  }, {
+    "@language" : "cs",
+    "@value" : "umístění úložiště"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#mailing-list",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "cs",
+    "@value" : "Domovská stránka nebo e–mailová adresa e–mailové diskuse."
+  }, {
+    "@language" : "de",
+    "@value" : "Homepage der Mailing Liste oder E-Mail Adresse."
+  }, {
+    "@language" : "en",
+    "@value" : "Mailing list home page or email address."
+  }, {
+    "@language" : "fr",
+    "@value" : "Page web de la liste de diffusion, ou adresse de courriel."
+  }, {
+    "@language" : "pt",
+    "@value" : "Página web da lista de distribuição de e-mail ou dos endereços."
+  }, {
+    "@language" : "es",
+    "@value" : "Página web de la lista de correo o dirección de correo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Mailing Liste"
+  }, {
+    "@language" : "cs",
+    "@value" : "e–mailová diskuse"
+  }, {
+    "@language" : "es",
+    "@value" : "lista de correo"
+  }, {
+    "@language" : "pt",
+    "@value" : "lista de distribuição de e-mail"
+  }, {
+    "@language" : "fr",
+    "@value" : "liste de diffusion"
+  }, {
+    "@language" : "en",
+    "@value" : "mailing list"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdfs.org/sioc/types#MailingList"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#maintainer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Desarrollador principal de un proyecto, un líder de proyecto."
+  }, {
+    "@language" : "fr",
+    "@value" : "Développeur principal d'un projet, un meneur du projet."
+  }, {
+    "@language" : "de",
+    "@value" : "Hauptentwickler eines Projektes, der Projektleiter"
+  }, {
+    "@language" : "en",
+    "@value" : "Maintainer of a project, a project leader."
+  }, {
+    "@language" : "pt",
+    "@value" : "Programador principal de um projeto, um líder de projeto."
+  }, {
+    "@language" : "cs",
+    "@value" : "Správce projektu, vedoucí projektu."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Projektverantwortlicher"
+  }, {
+    "@language" : "es",
+    "@value" : "desarrollador principal"
+  }, {
+    "@language" : "fr",
+    "@value" : "développeur principal"
+  }, {
+    "@language" : "en",
+    "@value" : "maintainer"
+  }, {
+    "@language" : "pt",
+    "@value" : "programador principal"
+  }, {
+    "@language" : "cs",
+    "@value" : "správce"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#module",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "cs",
+    "@value" : "Jméno modulu v CVS, BitKeeper nebo Arch úložišti."
+  }, {
+    "@language" : "de",
+    "@value" : "Modul-Name eines Subversion, CVS, BitKeeper oder Arch Repositorys."
+  }, {
+    "@language" : "en",
+    "@value" : "Module name of a Subversion, CVS, BitKeeper or Arch repository."
+  }, {
+    "@language" : "fr",
+    "@value" : "Nom du module d'un dépôt Subversion, CVS, BitKeeper ou Arch."
+  }, {
+    "@language" : "es",
+    "@value" : "Nombre del módulo de un repositorio Subversion, CVS, BitKeeper o Arch."
+  }, {
+    "@language" : "pt",
+    "@value" : "Nome do módulo de um repositório Subversion, CVS, BitKeeper ou Arch."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#_:genid2147483650"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Modul"
+  }, {
+    "@language" : "cs",
+    "@value" : "modul"
+  }, {
+    "@language" : "en",
+    "@value" : "module"
+  }, {
+    "@language" : "fr",
+    "@value" : "module"
+  }, {
+    "@language" : "es",
+    "@value" : "módulo"
+  }, {
+    "@language" : "pt",
+    "@value" : "módulo"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A name of something."
+  }, {
+    "@language" : "de",
+    "@value" : "Der Name von Irgendwas"
+  }, {
+    "@language" : "es",
+    "@value" : "El nombre de algo."
+  }, {
+    "@language" : "cs",
+    "@value" : "Jméno něčeho."
+  }, {
+    "@language" : "fr",
+    "@value" : "Le nom de quelque chose."
+  }, {
+    "@language" : "pt",
+    "@value" : "O nome de alguma coisa."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Name"
+  }, {
+    "@language" : "cs",
+    "@value" : "jméno"
+  }, {
+    "@language" : "en",
+    "@value" : "name"
+  }, {
+    "@language" : "fr",
+    "@value" : "nom"
+  }, {
+    "@language" : "es",
+    "@value" : "nombre"
+  }, {
+    "@language" : "pt",
+    "@value" : "nome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#old-homepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "El URL de la antigua página de un proyecto,\n\t\tasociada con exactamente un proyecto."
+  }, {
+    "@language" : "fr",
+    "@value" : "L'URL d'une ancienne page web d'un\n\t\tprojet, associée avec un unique projet."
+  }, {
+    "@language" : "pt",
+    "@value" : "O URL antigo da página de um projeto,\n\t\tassociada com exactamente um projeto."
+  }, {
+    "@language" : "cs",
+    "@value" : "URL adresa předešlé domovské stránky projektu asociované s právě jedním projektem."
+  }, {
+    "@language" : "de",
+    "@value" : "URL der letzten Projekt-Homepage,\n\t\tverbunden mit genau einem Projekt."
+  }, {
+    "@language" : "en",
+    "@value" : "URL of a project's past homepage,\n\t\tassociated with exactly one project."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Alte Homepage"
+  }, {
+    "@language" : "fr",
+    "@value" : "ancienne page web"
+  }, {
+    "@language" : "en",
+    "@value" : "old homepage"
+  }, {
+    "@language" : "pt",
+    "@value" : "página web antiga"
+  }, {
+    "@language" : "es",
+    "@value" : "página web antigua"
+  }, {
+    "@language" : "cs",
+    "@value" : "stará domovská stránka"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/homepage"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#os",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Betriebssystem auf dem das Projekt eingesetzt werden kann. Diese Eigenschaft kann ausgelassen werden, wenn das Projekt nicht BS-spezifisch ist."
+  }, {
+    "@language" : "en",
+    "@value" : "Operating system that a project is limited to.  Omit this property if the project is not OS-specific."
+  }, {
+    "@language" : "cs",
+    "@value" : "Operační systém, na jehož použití je projekt limitován. Vynechejte tuto vlastnost, pokud je projekt nezávislý na operačním systému."
+  }, {
+    "@language" : "en",
+    "@value" : "Sistema operativo a que o projeto está limitado. Omita esta propriedade se o projeto não é condicionado pelo SO usado."
+  }, {
+    "@language" : "es",
+    "@value" : "Sistema opertivo al cuál está limitado el proyecto.  Omita esta propiedad si el proyecto no es específico\n\t\tde un sistema opertaivo en particular."
+  }, {
+    "@language" : "fr",
+    "@value" : "Système d'exploitation auquel est limité le projet. Omettez cette propriété si le\n\t\tprojet n'est pas limité à un système d'exploitation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  }, {
+    "@id" : "http://usefulinc.com/ns/doap#Version"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Betriebssystem"
+  }, {
+    "@language" : "en",
+    "@value" : "operating system"
+  }, {
+    "@language" : "cs",
+    "@value" : "operační systém"
+  }, {
+    "@language" : "es",
+    "@value" : "sistema operativo"
+  }, {
+    "@language" : "pt",
+    "@value" : "sistema operativo"
+  }, {
+    "@language" : "fr",
+    "@value" : "système d'exploitation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#platform",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Indicador da plataforma do software (não específico a nenhum SO), ex.: Java, Firefox, ECMA CLR"
+  }, {
+    "@language" : "en",
+    "@value" : "Indicator of software platform (non-OS specific), e.g. Java, Firefox, ECMA CLR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  }, {
+    "@id" : "http://usefulinc.com/ns/doap#Version"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "pt",
+    "@value" : "plataforma"
+  }, {
+    "@language" : "en",
+    "@value" : "platform"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#programming-language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Langage de programmation avec lequel un projet est implémenté,\n\t\tou avec lequel il est prévu de l'utiliser."
+  }, {
+    "@language" : "es",
+    "@value" : "Lenguaje de programación en el que un proyecto es implementado o con el cuál pretende usarse."
+  }, {
+    "@language" : "pt",
+    "@value" : "Linguagem de programação que o projeto usa ou é para ser utilizada."
+  }, {
+    "@language" : "de",
+    "@value" : "Programmiersprache in der ein Projekt implementiert ist oder intendiert wird zu benutzen."
+  }, {
+    "@language" : "en",
+    "@value" : "Programming language a project is implemented in or intended for use with."
+  }, {
+    "@language" : "cs",
+    "@value" : "Programovací jazyk, ve kterém je projekt implementován nebo pro který je zamýšlen k použití."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Programmiersprache"
+  }, {
+    "@language" : "fr",
+    "@value" : "langage de programmation"
+  }, {
+    "@language" : "es",
+    "@value" : "lenguaje de programación"
+  }, {
+    "@language" : "pt",
+    "@value" : "linguagem de programação"
+  }, {
+    "@language" : "en",
+    "@value" : "programming language"
+  }, {
+    "@language" : "cs",
+    "@value" : "programovací jazyk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#release",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A project release."
+  }, {
+    "@language" : "pt",
+    "@value" : "A publicação de um projeto."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Release (Version) eines Projekts."
+  }, {
+    "@language" : "cs",
+    "@value" : "Relase (verze) projektu."
+  }, {
+    "@language" : "es",
+    "@value" : "Un release (versión) de un proyecto."
+  }, {
+    "@language" : "fr",
+    "@value" : "Une release (révision) d'un projet."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Release"
+  }, {
+    "@language" : "pt",
+    "@value" : "publicação"
+  }, {
+    "@language" : "cs",
+    "@value" : "release"
+  }, {
+    "@language" : "en",
+    "@value" : "release"
+  }, {
+    "@language" : "es",
+    "@value" : "release"
+  }, {
+    "@language" : "fr",
+    "@value" : "release"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Version"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#repository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Dépôt du code source."
+  }, {
+    "@language" : "de",
+    "@value" : "Quellcode-Versionierungssystem."
+  }, {
+    "@language" : "es",
+    "@value" : "Repositorio del código fuente."
+  }, {
+    "@language" : "pt",
+    "@value" : "Repositório do código fonte."
+  }, {
+    "@language" : "en",
+    "@value" : "Source code repository."
+  }, {
+    "@language" : "cs",
+    "@value" : "Úložiště zdrojových kódů."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Repository"
+  }, {
+    "@language" : "fr",
+    "@value" : "dépôt"
+  }, {
+    "@language" : "es",
+    "@value" : "repositorio"
+  }, {
+    "@language" : "en",
+    "@value" : "repository"
+  }, {
+    "@language" : "pt",
+    "@value" : "repositório"
+  }, {
+    "@language" : "cs",
+    "@value" : "úložiště"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#repositoryOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The project that uses a repository."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Repository"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "repository of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#repository"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#revision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Identifiant de révision d'une release du programme."
+  }, {
+    "@language" : "pt",
+    "@value" : "Identificador do lançamento da revisão do software."
+  }, {
+    "@language" : "cs",
+    "@value" : "Identifikátor zpřístupněné revize softwaru."
+  }, {
+    "@language" : "es",
+    "@value" : "Indentificador de la versión de un release de software."
+  }, {
+    "@language" : "en",
+    "@value" : "Revision identifier of a software release."
+  }, {
+    "@language" : "de",
+    "@value" : "Versionsidentifikator eines Software-Releases."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Version"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Version"
+  }, {
+    "@language" : "en",
+    "@value" : "revision"
+  }, {
+    "@language" : "pt",
+    "@value" : "revisão"
+  }, {
+    "@language" : "fr",
+    "@value" : "révision"
+  }, {
+    "@language" : "es",
+    "@value" : "versión"
+  }, {
+    "@language" : "cs",
+    "@value" : "verze"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#screenshots",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Page web avec des captures d'écran du projet."
+  }, {
+    "@language" : "pt",
+    "@value" : "Página web com as capturas de ecrãn do projeto."
+  }, {
+    "@language" : "es",
+    "@value" : "Página web con capturas de pantalla del proyecto."
+  }, {
+    "@language" : "en",
+    "@value" : "Web page with screenshots of project."
+  }, {
+    "@language" : "de",
+    "@value" : "Web-Seite mit Screenshots eines Projektes."
+  }, {
+    "@language" : "cs",
+    "@value" : "Webová stránka projektu se snímky obrazovky."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Screenshots"
+  }, {
+    "@language" : "pt",
+    "@value" : "capturas de ecrãs"
+  }, {
+    "@language" : "es",
+    "@value" : "capturas de pantalla"
+  }, {
+    "@language" : "fr",
+    "@value" : "captures d'écran"
+  }, {
+    "@language" : "en",
+    "@value" : "screenshots"
+  }, {
+    "@language" : "cs",
+    "@value" : "snímek obrazovky"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#service-endpoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The URI of a web service endpoint where software as a service may be accessed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "service endpoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#shortdesc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Descripción corta (8 o 9 palabras) en texto plano de un proyecto."
+  }, {
+    "@language" : "pt",
+    "@value" : "Descrição curta (com 8 ou 9 palavras) de um projeto em texto apenas."
+  }, {
+    "@language" : "cs",
+    "@value" : "Krátký (8 nebo 9 slov) čistě textový popis projektu."
+  }, {
+    "@language" : "de",
+    "@value" : "Kurzbeschreibung (8 oder 9 Wörter) eines Projects als einfacher Text."
+  }, {
+    "@language" : "en",
+    "@value" : "Short (8 or 9 words) plain text description of a project."
+  }, {
+    "@language" : "fr",
+    "@value" : "Texte descriptif concis (8 ou 9 mots) d'un projet."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kurzbeschreibung"
+  }, {
+    "@language" : "es",
+    "@value" : "descripción corta"
+  }, {
+    "@language" : "fr",
+    "@value" : "description courte"
+  }, {
+    "@language" : "pt",
+    "@value" : "descrição curta"
+  }, {
+    "@language" : "cs",
+    "@value" : "krátký popis"
+  }, {
+    "@language" : "en",
+    "@value" : "short description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#support-forum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A forum or community that supports this project."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "supporting forum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdfs.org/sioc/ns#Container"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#tester",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A tester or other quality control contributor."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Tester oder anderer Mitarbeiter der Qualitätskontrolle."
+  }, {
+    "@language" : "cs",
+    "@value" : "Tester nebo jiný spoluautor kontrolující kvalitu."
+  }, {
+    "@language" : "pt",
+    "@value" : "Um controlador ou outro contribuidor para o controlo de qualidade."
+  }, {
+    "@language" : "es",
+    "@value" : "Un tester u otro proveedor de control de calidad."
+  }, {
+    "@language" : "fr",
+    "@value" : "Un testeur ou un collaborateur au contrôle qualité."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Tester"
+  }, {
+    "@language" : "pt",
+    "@value" : "controlador"
+  }, {
+    "@language" : "cs",
+    "@value" : "tester"
+  }, {
+    "@language" : "en",
+    "@value" : "tester"
+  }, {
+    "@language" : "es",
+    "@value" : "tester"
+  }, {
+    "@language" : "fr",
+    "@value" : "testeur"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#translator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Collaborateur à la traduction du projet."
+  }, {
+    "@language" : "pt",
+    "@value" : "Contribuidor das traduções para o projeto."
+  }, {
+    "@language" : "en",
+    "@value" : "Contributor of translations to the project."
+  }, {
+    "@language" : "de",
+    "@value" : "Mitarbeiter an den Übersetzungen eines Projektes."
+  }, {
+    "@language" : "es",
+    "@value" : "Proveedor de traducciones al proyecto."
+  }, {
+    "@language" : "cs",
+    "@value" : "Spoluautor překladu projektu."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cs",
+    "@value" : "překladatel"
+  }, {
+    "@language" : "fr",
+    "@value" : "traducteur"
+  }, {
+    "@language" : "es",
+    "@value" : "traductor"
+  }, {
+    "@language" : "pt",
+    "@value" : "tradutor"
+  }, {
+    "@language" : "en",
+    "@value" : "translator"
+  }, {
+    "@language" : "de",
+    "@value" : "Übersetzer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#vendor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Vendor organization: commercial, free or otherwise"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "vendor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Organization"
+  } ]
+}, {
+  "@id" : "http://usefulinc.com/ns/doap#wiki",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "L'URL du Wiki pour la discussion collaborative sur le projet."
+  }, {
+    "@language" : "cs",
+    "@value" : "URL adresa wiki projektu pro společné diskuse."
+  }, {
+    "@language" : "pt",
+    "@value" : "URL da Wiki para discussão em grupo do projeto."
+  }, {
+    "@language" : "es",
+    "@value" : "URL del Wiki para discusión colaborativa del proyecto."
+  }, {
+    "@language" : "en",
+    "@value" : "URL of Wiki for collaborative discussion of project."
+  }, {
+    "@language" : "de",
+    "@value" : "Wiki-URL für die kollaborative Dikussion eines Projektes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://usefulinc.com/ns/doap#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Wiki"
+  }, {
+    "@language" : "cs",
+    "@value" : "wiki"
+  }, {
+    "@language" : "en",
+    "@value" : "wiki"
+  }, {
+    "@language" : "es",
+    "@value" : "wiki"
+  }, {
+    "@language" : "fr",
+    "@value" : "wiki"
+  }, {
+    "@language" : "pt",
+    "@value" : "wiki"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdfs.org/sioc/types#Wiki"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/wordnet/1.6/Project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "mailto:edd@usefulinc.com",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+} ]
