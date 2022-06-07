@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "doap:BKRepository" "doap:ArchRepository" "doap:CVSRepository" "476a5e17:1813defb58d:-7ffb" "foaf:Image" "foaf:Project" "foaf:Agent" "foaf:Document" "foaf:OnlineAccount" "foaf:Person" "foaf:Organization" "foaf:Group" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "doap:BKRepository" "doap:ArchRepository" "doap:CVSRepository" "4a571ad9:1813f2ca2bb:-7ffb" "foaf:Image" "foaf:Project" "foaf:Agent" "foaf:Document" "foaf:OnlineAccount" "foaf:Person" "foaf:Organization" "foaf:Group" ; /*classes style*/
 	"foaf:icqChatID" -> "foaf:nick" [ label = "rdfs:subPropertyOf" ];
 	"foaf:openid" -> "foaf:isPrimaryTopicOf" [ label = "rdfs:subPropertyOf" ];
 	"foaf:isPrimaryTopicOf" -> "foaf:page" [ label = "rdfs:subPropertyOf" ];
@@ -20,11 +20,11 @@ node [shape = rectangle, color="orange"]; "doap:BKRepository" "doap:ArchReposito
 	"foaf:maker" -> "dcterms:creator" [ label = "owl:equivalentProperty" ];
 	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
 	"NULL" -> "doap:BKRepository" [ label = "rdf:first" ];
-	"NULL" -> "476a5e17:1813defb58d:-7ff8" [ label = "rdf:rest" ];
+	"NULL" -> "4a571ad9:1813f2ca2bb:-7ff8" [ label = "rdf:rest" ];
 	"NULL" -> "doap:ArchRepository" [ label = "rdf:first" ];
-	"NULL" -> "476a5e17:1813defb58d:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "4a571ad9:1813f2ca2bb:-7ff9" [ label = "rdf:rest" ];
 	"NULL" -> "doap:CVSRepository" [ label = "rdf:first" ];
-	"NULL" -> "476a5e17:1813defb58d:-7ffa" [ label = "owl:unionOf" ];
+	"NULL" -> "4a571ad9:1813f2ca2bb:-7ffa" [ label = "owl:unionOf" ];
 	"NULL" -> "mailto:edd@usefulinc.com" [ label = "foaf:mbox" ];
 	"foaf:name" -> "rdfs:label" [ label = "rdfs:subPropertyOf" ];
 	"foaf:tipjar" -> "foaf:page" [ label = "rdfs:subPropertyOf" ];
@@ -33,7 +33,7 @@ node [shape = rectangle, color="orange"]; "doap:BKRepository" "doap:ArchReposito
 	"foaf:weblog" -> "foaf:page" [ label = "rdfs:subPropertyOf" ];
 	"foaf:Person" -> "foaf:Project" [ label = "owl:disjointWith" ];
 	"foaf:Person" -> "foaf:Organization" [ label = "owl:disjointWith" ];
-	"doap:" -> "476a5e17:1813defb58d:-7ffc" [ label = "foaf:maker" ];
+	"doap:" -> "4a571ad9:1813f2ca2bb:-7ffc" [ label = "foaf:maker" ];
 	"doap:" -> "foaf:index.rdf" [ label = "owl:imports" ];
 	"foaf:aimChatID" -> "foaf:nick" [ label = "rdfs:subPropertyOf" ];
 	"foaf:Document" -> "foaf:Project" [ label = "owl:disjointWith" ];
@@ -65,7 +65,7 @@ node [shape = rectangle, color="orange"]; "doap:BKRepository" "doap:ArchReposito
 	"foaf:Person" -> "foaf:Image" [ label = "foaf:img" ];
 	"doap:Project" -> "owl:Thing" [ label = "doap:download-mirror" ];
 	"owl:Thing" -> "rdfs:Literal" [ label = "doap:description" ];
-	"476a5e17:1813defb58d:-7ffb" -> "owl:Thing" [ label = "doap:module" ];
+	"4a571ad9:1813f2ca2bb:-7ffb" -> "owl:Thing" [ label = "doap:module" ];
 	"foaf:Agent" -> "rdfs:Literal" [ label = "foaf:jabberID" ];
 	"doap:Project" -> "rdfs:Literal" [ label = "doap:audience" ];
 	"foaf:Agent" -> "rdfs:Literal" [ label = "foaf:status" ];
