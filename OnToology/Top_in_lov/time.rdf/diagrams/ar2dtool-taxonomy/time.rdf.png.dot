@@ -1,14 +1,14 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "base:GeneralDateTimeDescription" "base:DateTimeInterval" "base:DurationDescription" "base:TemporalDuration" "base:Duration" "base:GeneralDurationDescription" "base:January" "base:ProperInterval" "base:TimePosition" "base:TemporalPosition" "base:Interval" "base:TemporalEntity" "base:Year" "base:MonthOfYear" "base:DateTimeDescription" "701186706923a35c727f0a45208d506a" "base:TemporalUnit" "base:Instant" "base:DayOfWeek" ; /*classes style*/
+node [shape = rectangle, color="black"]; "base:GeneralDateTimeDescription" "base:DateTimeInterval" "base:DurationDescription" "base:TemporalDuration" "base:Duration" "base:GeneralDurationDescription" "base:January" "base:ProperInterval" "base:TimePosition" "base:TemporalPosition" "base:Interval" "base:TemporalEntity" "base:Year" "base:MonthOfYear" "603e0a825b34a5df16e23b9bd2e2e916" "base:DateTimeDescription" "base:TemporalUnit" "base:Instant" "base:DayOfWeek" ; /*classes style*/
 	"base:ProperInterval" -> "base:Interval" [ label = "rdfs:subClassOf" ];
 	"base:DayOfWeek" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
 	"base:DurationDescription" -> "base:GeneralDurationDescription" [ label = "rdfs:subClassOf" ];
 	"base:Year" -> "base:DurationDescription" [ label = "rdfs:subClassOf" ];
 	"base:GeneralDurationDescription" -> "base:TemporalDuration" [ label = "rdfs:subClassOf" ];
 	"base:January" -> "base:DateTimeDescription" [ label = "rdfs:subClassOf" ];
-	"base:TimePosition" -> "701186706923a35c727f0a45208d506a" [ label = "rdfs:subClassOf" ];
+	"base:TimePosition" -> "603e0a825b34a5df16e23b9bd2e2e916" [ label = "rdfs:subClassOf" ];
 	"base:TimePosition" -> "base:TemporalPosition" [ label = "rdfs:subClassOf" ];
 	"base:TemporalUnit" -> "base:TemporalDuration" [ label = "rdfs:subClassOf" ];
 	"base:TemporalEntity" -> "owl:Thing" [ label = "rdfs:subClassOf" ];

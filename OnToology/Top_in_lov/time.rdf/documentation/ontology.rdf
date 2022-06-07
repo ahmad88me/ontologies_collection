@@ -2391,13 +2391,13 @@ It is deprecated in this edition of OWL-Time. </skos:historyNote>
         <skos:prefLabel xml:lang="zh">一年</skos:prefLabel>
     </owl:NamedIndividual>
     <rdf:Description>
-        <xsd:pattern>--(0[1-9]|1[0-9]|20)(Z|(\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?</xsd:pattern>
+        <xsd:pattern>---(0[1-9]|[1-9][0-9])(Z|(\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?</xsd:pattern>
     </rdf:Description>
     <rdf:Description>
         <xsd:pattern>-?([1-9][0-9]{3,}|0[0-9]{3})(Z|(\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?</xsd:pattern>
     </rdf:Description>
     <rdf:Description>
-        <xsd:pattern>---(0[1-9]|[1-9][0-9])(Z|(\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?</xsd:pattern>
+        <xsd:pattern>--(0[1-9]|1[0-9]|20)(Z|(\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?</xsd:pattern>
     </rdf:Description>
 </rdf:RDF>
 
