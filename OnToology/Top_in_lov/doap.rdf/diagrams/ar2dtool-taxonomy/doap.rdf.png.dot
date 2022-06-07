@@ -1,0 +1,29 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "doap:BKRepository" "doap:ArchRepository" "doap:CVSRepository" "foaf:Image" "foaf:Project" "foaf:Agent" "foaf:Document" "foaf:OnlineAccount" "foaf:Person" "foaf:PersonalProfileDocument" "foaf:OnlineChatAccount" "foaf:OnlineGamingAccount" "foaf:Organization" "foaf:Group" "foaf:OnlineEcommerceAccount" ; /*classes style*/
+	"doap:HgRepository" -> "doap:Repository" [ label = "rdfs:subClassOf" ];
+	"doap:BazaarBranch" -> "doap:Repository" [ label = "rdfs:subClassOf" ];
+	"doap:SVNRepository" -> "doap:Repository" [ label = "rdfs:subClassOf" ];
+	"doap:BKRepository" -> "doap:Repository" [ label = "rdfs:subClassOf" ];
+	"foaf:OnlineGamingAccount" -> "foaf:OnlineAccount" [ label = "rdfs:subClassOf" ];
+	"foaf:PersonalProfileDocument" -> "foaf:Document" [ label = "rdfs:subClassOf" ];
+	"foaf:Group" -> "foaf:Agent" [ label = "rdfs:subClassOf" ];
+	"doap:Specification" -> "rdfs:Resource" [ label = "rdfs:subClassOf" ];
+	"foaf:OnlineChatAccount" -> "foaf:OnlineAccount" [ label = "rdfs:subClassOf" ];
+	"doap:CVSRepository" -> "doap:Repository" [ label = "rdfs:subClassOf" ];
+	"foaf:Image" -> "foaf:Document" [ label = "rdfs:subClassOf" ];
+	"doap:GitBranch" -> "doap:Repository" [ label = "rdfs:subClassOf" ];
+	"foaf:Person" -> "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" [ label = "rdfs:subClassOf" ];
+	"foaf:Person" -> "http://www.w3.org/2000/10/swap/pim/contact#Person" [ label = "rdfs:subClassOf" ];
+	"foaf:Person" -> "foaf:Agent" [ label = "rdfs:subClassOf" ];
+	"doap:Project" -> "http://xmlns.com/wordnet/1.6/Project" [ label = "rdfs:subClassOf" ];
+	"doap:Project" -> "foaf:Project" [ label = "rdfs:subClassOf" ];
+	"doap:GitRepository" -> "doap:Repository" [ label = "rdfs:subClassOf" ];
+	"foaf:Organization" -> "foaf:Agent" [ label = "rdfs:subClassOf" ];
+	"foaf:OnlineAccount" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"doap:ArchRepository" -> "doap:Repository" [ label = "rdfs:subClassOf" ];
+	"doap:DarcsRepository" -> "doap:Repository" [ label = "rdfs:subClassOf" ];
+	"foaf:OnlineEcommerceAccount" -> "foaf:OnlineAccount" [ label = "rdfs:subClassOf" ];
+
+}

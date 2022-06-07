@@ -1,0 +1,33 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"http://www.w3.org/ns/adms" -> "dcat:" [ label = "voaf:specializes" ];
+	"http://www.w3.org/ns/adms" -> "7b989921f24f3a0ae7343f7011965bed" [ label = "foaf:maker" ];
+	"http://www.w3.org/ns/adms" -> "http://www.w3.org/TR/vocab-adms" [ label = "wdrs:describedby" ];
+	"http://www.w3.org/ns/adms" -> "2b37d957b0eb401f549c31c797742772" [ label = "dcterms:creator" ];
+	"http://www.w3.org/ns/adms" -> "05fbf9363a4ecd16faf0ac8c23505a8c" [ label = "dcterms:creator" ];
+	"http://www.w3.org/ns/adms" -> "436d09c67b4dd19460df60c4b76ae809" [ label = "dcterms:creator" ];
+	"adms:last" -> "xhv:last" [ label = "rdfs:subPropertyOf" ];
+	"adms:prev" -> "xhv:prev" [ label = "rdfs:subPropertyOf" ];
+	"adms:next" -> "xhv:next" [ label = "rdfs:subPropertyOf" ];
+	"NULL" -> "d5c48e1e8ede42e96dc2931be3d933d4" [ label = "schema:affiliation" ];
+	"NULL" -> "http://www.w3.org/People/all#phila" [ label = "foaf:homepage" ];
+	"NULL" -> "http://ies.jrc.ec.europa.eu/DE" [ label = "foaf:homepage" ];
+	"NULL" -> "http://makxdekkers.com/" [ label = "foaf:homepage" ];
+	"NULL" -> "http://philarcher.org/foaf.rdf#me" [ label = "rdfs:seeAlso" ];
+	"NULL" -> "http://www.w3.org/data#W3C" [ label = "schema:affiliation" ];
+	"NULL" -> "http://andrea-perego.name/" [ label = "foaf:homepage" ];
+	"NULL" -> "http://andrea-perego.name/foaf/#me" [ label = "rdfs:seeAlso" ];
+	"NULL" -> "http://makxdekkers.com/makxdekkers.rdf#me" [ label = "rdfs:seeAlso" ];
+	"NULL" -> "http://www.w3.org/2011/gld/" [ label = "foaf:homepage" ];
+	"owl:Thing" -> "adms:Asset" [ label = "adms:supportedSchema" ];
+	"adms:Asset" -> "adms:Asset" [ label = "adms:sample" ];
+	"owl:Thing" -> "skos:Concept" [ label = "adms:status" ];
+	"owl:Thing" -> "skos:Concept" [ label = "adms:representationTechnique" ];
+	"adms:Identifier" -> "rdfs:Literal" [ label = "adms:schemeAgency" ];
+	"owl:Thing" -> "rdfs:Literal" [ label = "adms:versionNotes" ];
+	"adms:Asset" -> "skos:Concept" [ label = "adms:interoperabilityLevel" ];
+	"adms:Asset" -> "adms:Asset" [ label = "adms:includedAsset" ];
+	"owl:Thing" -> "adms:Identifier" [ label = "adms:identifier" ];
+
+}
