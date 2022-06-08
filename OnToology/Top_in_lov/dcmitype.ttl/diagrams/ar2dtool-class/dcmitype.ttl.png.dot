@@ -1,0 +1,18 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"http://purl.org/dc/dcmitype/MovingImage" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+	"http://purl.org/dc/dcmitype/Service" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+	"http://purl.org/dc/dcmitype/Image" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+	"http://purl.org/dc/dcmitype/InteractiveResource" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+	"http://purl.org/dc/dcmitype/Text" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+	"http://purl.org/dc/dcmitype/Software" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+	"http://purl.org/dc/dcmitype/Sound" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+	"http://purl.org/dc/dcmitype/Event" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+	"http://purl.org/dc/dcmitype/Dataset" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+	"http://purl.org/dc/dcmitype/StillImage" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+	"http://purl.org/dc/dcmitype/PhysicalObject" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+	"http://purl.org/dc/dcmitype/" -> "http://purl.org/dc/aboutdcmi#DCMI" [ label = "dcterms:publisher" ];
+	"http://purl.org/dc/dcmitype/Collection" -> "dcterms:DCMIType" [ label = "dcam:memberOf" ];
+
+}
