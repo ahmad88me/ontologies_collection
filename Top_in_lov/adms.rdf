@@ -166,3 +166,4 @@
 	rdfs:isDefinedBy <http://www.w3.org/TR/vocab-adms>;
 	rdfs:label "version info"@en;
 	rdfs:range rdfs:Literal.
+
