@@ -1,0 +1,7 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+	"http://purl.org/dc/dcmitype/StillImage" -> "http://purl.org/dc/dcmitype/Image" [ label = "rdfs:subClassOf" ];
+	"http://purl.org/dc/dcmitype/MovingImage" -> "http://purl.org/dc/dcmitype/Image" [ label = "rdfs:subClassOf" ];
+
+}
