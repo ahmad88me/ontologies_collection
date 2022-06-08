@@ -1,0 +1,519 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190SCHEMAORG-ALL-HTTPTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab schemaorg-all-http.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#SCHEMAORG-ALL-HTTP.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HTTPWWWW3ORGNSADMS%2523>
+        rdfs:label  "Entry for vocab http://www.w3.org/ns/adms#" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190DCMITYPETTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab dcmitype.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#DCMITYPE.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESTECNICASARTISTICASOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESTECNICASARTISTICAS.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESFOAFOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESFOAF.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#reportDate>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESDISCIPLINASARTISTICASOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/DisciplinasArtisticas.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESGEOGRAFICAOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESGEOGRAFICA.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#REPORT1654668839190>
+        a           <http://vocab.linkeddata.es/ontology/report#Report> ;
+        rdfs:label  "Report created on Wed Jun 08 08:13:59 CEST 2022" ;
+        <http://vocab.linkeddata.es/ontology/report#hasEntry>
+                <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESUNITSOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190DCMITYPETTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESSERVICIOSCOMUNITARIOSOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESFOAFOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190VOIDTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HTTPWWWW3ORG200306SW-VOCAB-STATUSNS%23> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESDAML-TIME-BASICOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESCAMINODESANTIAGOOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVDOAPRDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESTECNICASARTISTICASOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESTEMASARTISTICOSOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190SKOSTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190WGS84_POSRDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESOGC-GML_MODIFICADAOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESMATERIALOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVTIMERDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESPRICEOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESESTILOSOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190PROVTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESLANGUAGECODEOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESPERSONASARTEOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVFOAFRDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVBIBORDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESDISCIPLINASARTISTICASOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESARTOBJECTOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HTTPWWWW3ORGNSADMS%23> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESPERSONALIZACIONOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESARTEOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESCALENDARCLOCKOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190SCHEMAORG-ALL-HTTPTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESGEOGRAFICAOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESARQUITECTURAOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVORGRDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190DBPEDIATTL> ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+                "7" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
+                "6" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
+                "23" ;
+        <http://vocab.linkeddata.es/ontology/report#reportDate>
+                "Wed Jun 08 08:13:59 CEST 2022"^^xsd:dateTime .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESOGC-GML_MODIFICADAOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESOGC-GML_MODIFICADA.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#Report>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#Error>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190WGS84_POSRDF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab wgs84_pos.rdf" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#WGS84_POS.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESLANGUAGECODEOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/languagecode.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESPERSONASARTEOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/PersonasArte.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESDISCIPLINASARTISTICASOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESDISCIPLINASARTISTICAS.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC>
+        a           <http://vocab.linkeddata.es/ontology/report#Warning> ;
+        rdfs:label  "Warning: title or description missing from vocabulary" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESCAMINODESANTIAGOOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESCAMINODESANTIAGO.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVTIMERDF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Top_in_lov/time.rdf" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LANGUAGENOTFOUND> , <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVTIME.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESCALENDARCLOCKOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESCALENDARCLOCK.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HTTPWWWW3ORG200306SW-VOCAB-STATUSNS%23>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://www.w3.org/2003/06/sw-vocab-status/ns#" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESPRICEOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/price.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESARQUITECTURAOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESARQUITECTURA.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVORGRDF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Top_in_lov/org.rdf" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVORG.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190VOIDTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab void.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#VOID.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESESTILOSOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/Estilos.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESCAMINODESANTIAGOOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/CaminoDeSantiago.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#LANGUAGENOTFOUND>
+        a           <http://vocab.linkeddata.es/ontology/report#Warning> ;
+        rdfs:label  "Warning: A language was not recognized in vocabulary" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESMATERIALOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/Material.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#GENERICERROR>
+        a           <http://vocab.linkeddata.es/ontology/report#Error> ;
+        rdfs:label  "Error: the vocabulary could not be loaded or processed" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESUNITSOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESUNITS.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESTEMASARTISTICOSOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/TemasArtisticos.owl" .
+
+rdfs:label  a   owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESDAML-TIME-BASICOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESDAML-TIME-BASIC.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESTEMASARTISTICOSOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESTEMASARTISTICOS.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#hasEntry>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#detectedProblem>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#Warning>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESCALENDARCLOCKOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/calendarclock.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESESTILOSOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESESTILOS.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESARTEOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESARTE.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESARQUITECTURAOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/Arquitectura.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESARTEOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/Arte.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190SKOSTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab skos.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#SKOS.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESGEOGRAFICAOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/geografica.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVFOAFRDF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Top_in_lov/foaf.rdf" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVFOAF.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESMATERIALOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESMATERIAL.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESARTOBJECTOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESARTOBJECT.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESDAML-TIME-BASICOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/daml-time-basic.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESTECNICASARTISTICASOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/TecnicasArtisticas.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#entrySubject>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190DBPEDIATTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab dbpedia.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#DBPEDIA.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HTTPWWWW3ORG200306SW-VOCAB-STATUSNS%2523>
+        rdfs:label  "Entry for vocab http://www.w3.org/2003/06/sw-vocab-status/ns#" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESOGC-GML_MODIFICADAOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/ogc-gml_modificada.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVDOAPRDF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Top_in_lov/doap.rdf" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVDOAP.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND>
+        a           <http://vocab.linkeddata.es/ontology/report#Warning> ;
+        rdfs:label  "Warning: A license was not found for vocabulary" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVBIBORDF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Top_in_lov/bibo.rdf" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYTOP_IN_LOVBIBO.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESFOAFOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/foaf.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESSERVICIOSCOMUNITARIOSOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/ServiciosComunitarios.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESUNITSOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/units.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESPERSONALIZACIONOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/Personalizacion.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESLANGUAGECODEOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESLANGUAGECODE.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HTTPWWWW3ORGNSADMS%23>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://www.w3.org/ns/adms#" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#Entry>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESPERSONALIZACIONOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESPERSONALIZACION.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190PROVTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab prov.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#PROV.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%2520GEOBUDDIESARTOBJECTOWL>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-48NY/Red Geobuddies/ArtObject.owl" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESPRICEOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESPRICE.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESPERSONASARTEOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESPERSONASARTE.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1654668839190HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESSERVICIOSCOMUNITARIOSOWL>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-48NYRED%20GEOBUDDIESSERVICIOSCOMUNITARIOS.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1654668839190> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
